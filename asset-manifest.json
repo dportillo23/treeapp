@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/treeapp/static/css/main.42d8074b.css",
+    "main.js": "/treeapp/static/js/main.2997336f.js",
+    "index.html": "/treeapp/index.html",
+    "main.42d8074b.css.map": "/treeapp/static/css/main.42d8074b.css.map",
+    "main.2997336f.js.map": "/treeapp/static/js/main.2997336f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42d8074b.css",
+    "static/js/main.2997336f.js"
+  ]
+}
