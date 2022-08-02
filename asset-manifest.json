@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/treeapp/static/css/main.42d8074b.css",
-    "main.js": "/treeapp/static/js/main.2997336f.js",
+    "main.css": "/treeapp/static/css/main.6373b327.css",
+    "main.js": "/treeapp/static/js/main.cdf5825e.js",
+    "static/media/Logo.svg": "/treeapp/static/media/Logo.2480defc5134d71f4ee88470f0d713b5.svg",
     "index.html": "/treeapp/index.html",
-    "main.42d8074b.css.map": "/treeapp/static/css/main.42d8074b.css.map",
-    "main.2997336f.js.map": "/treeapp/static/js/main.2997336f.js.map"
+    "main.6373b327.css.map": "/treeapp/static/css/main.6373b327.css.map",
+    "main.cdf5825e.js.map": "/treeapp/static/js/main.cdf5825e.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d8074b.css",
-    "static/js/main.2997336f.js"
+    "static/css/main.6373b327.css",
+    "static/js/main.cdf5825e.js"
   ]
 }
