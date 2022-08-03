@@ -1,0 +1,44 @@
+[
+     {
+        "name": "Wise",
+        "subtitle": "Cuenta multi divisa Wise - Permite ahorrar y transferir a bajo costo entre diferentes divisas",
+        "img": "wise.png",
+        "description": ["Big description"],
+        "link": "https://wise.com/invite/u/carlosp464"
+     },
+     {
+        "name": "Soy Focus",
+        "subtitle": "Invierte en fondos mutuos a través de esta AGF - Regulada por la CMF",
+        "img": "soyfocus.png",
+        "description": ["Big description"],
+        "link": "https://soyfocus.com/onboarding/#!/referido/CARLOS109"
+     },
+     {
+        "name": "Racional App",
+        "subtitle": "Plataforma de inversión en Chile para invertir en portafolios, además de poder invertir en la bolsa en USA desde 5.000 Pesos Chilenos.",
+        "img": "racional.png",
+        "description": ["Big description"],
+        "link": "https://app.racional.cl/app/EERn?code=CP482"
+     },
+     {
+        "name": "Fintual",
+        "subtitle": "Invertir es así de simple, tus inversiones reguladas - Fintual",
+        "img": "fintual.png",
+        "description": ["Big description"],
+        "link": "https://fintual.cl/r/carlosp22"
+     },
+     {
+        "name": "Clever by BICE",
+        "subtitle": "Plataforma respaldada por el banco BICE en Chile - Para invertir y hacer crecer tus ahorros en el tiempo",
+        "img": "clever.png",
+        "description": ["Big description"],
+        "link": "https://app.clever.cl/onboarding/new?referred=REFC9BEEF45"
+     },
+     {
+        "name": "Interactive Brokers",
+        "subtitle": "Uno de los mejores broker del mundo para invertir en diferentes bolsas y hacer crecer tu patrimonio",
+        "img": "interactive.png",
+        "description": ["Big description"],
+        "link": "https://ibkr.com/referral/carlos875"
+     }
+]

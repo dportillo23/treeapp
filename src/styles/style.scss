@@ -1,0 +1,167 @@
+:root {
+    --width: 85%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;700&display=swap');
+
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url("https://unsplash.com/photos/PhYq704ffdA");
+    // background: linear-gradient(-45deg, green, blue, purple, red, yellow);
+    // background-size: 400%;
+    // animation: background 45s ease infinite;
+    display: grid;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+.hero__img {
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+// .hero__title {
+//     color: white;
+// }
+
+.hero__greetings {
+    max-width: 720px;
+    width: var(--width);
+    padding: 1rem 2.5rem;
+    background-color: lightblue;
+    border-radius: 0.75rem;
+    margin: 3rem;
+}
+
+.buttons__div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.button__link {
+    max-width: 720px;
+    width: var(--width);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 0.75rem;
+    background-color: antiquewhite;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button__img {
+    width: 3rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.button__p {
+    // color: white;
+    & span {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.blackscreen {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    display: grid;
+    place-items: center;
+    transition: background-color 100ms ease 50ms;
+
+}
+
+.active {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.detail__card {
+    padding: 1rem 2rem;
+    // background-color: lightgreen;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(0);
+
+    transition: transform 100ms ease-in-out;
+
+    &.grow {
+        transform: scale(1)
+    }
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.logo__div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+}
+
+.attribution {
+    color: #eee;
+
+    & a {
+        color: #eee;
+        text-decoration: underline;
+    }
+}
+
+// @keyframes background {
+//     0% {
+//         background-position: 0% 50%;
+//     }
+//     50% {
+//         background-position: 100% 50%;
+//     }
+//     100% {
+//         background-position: 1% 50%;
+//     }
+// }
+
